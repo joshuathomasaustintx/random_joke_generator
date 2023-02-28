@@ -3,7 +3,7 @@
 //A file that takes one click of a user and returns a dad joke number and a dad joke.
 
 const randomNum = () => {
-     let a = Math.floor(Math.random() * 10);
+     let a = Math.floor(Math.random() * 10) + 1;
      return a;
 };
 
@@ -40,7 +40,6 @@ function showJoke() {
     jokeElement.textContent = joke;
   }
 
-randomJoke(randomNum());
 
 
 
